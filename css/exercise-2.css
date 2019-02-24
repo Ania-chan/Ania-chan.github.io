@@ -1,0 +1,67 @@
+body {
+    position: relative;
+    background-color: rgb(240, 240, 240);
+}
+
+h1,
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    color: #3c1552;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar.scrolled {
+    background: #994b80;
+    opacity: 0.9;
+    transition: background 500ms;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(36, 64, 104, 0.5), rgba(36, 64, 104, 0.5)),
+        url('../img/jeremy-thomas-98201-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+    color: rgb(240, 240, 240);
+}
+
+li {
+    list-style: none;
+}
+
+li i {
+    padding-right: 10px;
+}
+
+footer {
+    background: #ad5389; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #3c1053,
+        #ad5389
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li i {
+    font-size: 2em;
+    color: rgb(240, 240, 240);
+}
